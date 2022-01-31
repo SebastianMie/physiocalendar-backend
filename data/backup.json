@@ -41,5 +41,52 @@
         }]
       }
     ]
-  }
+  },
+  "therapists": [
+    {
+      "name": "Torben",
+      "activeSince": -1,
+      "activeUntil": -1
+    },
+    {
+      "name": "Andre",
+      "activeSince": -1,
+      "activeUntil": -1
+    },
+    {
+      "name": "Max",
+      "activeSince": -1,
+      "activeUntil": -1
+    },
+    {
+      "name": "Tom",
+      "activeSince": -1,
+      "activeUntil": -1
+    },
+    {
+      "name": "Lisa",
+      "activeSince": -1,
+      "activeUntil": -1
+    },
+    {
+      "name": "Esther",
+      "activeSince": -1,
+      "activeUntil": -1
+    },
+    {
+      "name": "Rolf",
+      "activeSince": -1,
+      "activeUntil": -1
+    },
+    {
+      "name": "Sybille",
+      "activeSince": -1,
+      "activeUntil": -1
+    },
+    {
+      "name": "Ursula",
+      "activeSince": -1,
+      "activeUntil": -1
+    }
+  ]
 }
