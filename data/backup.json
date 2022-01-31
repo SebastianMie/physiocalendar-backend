@@ -1,0 +1,45 @@
+{
+  "createdDate": 1643460208782,
+  "masterlist": {
+    "elements": [
+      {
+        "weekday": "Montag",
+        "therapists": [],
+        "appointments": []
+      },
+      {
+        "weekday": "Dienstag",
+        "therapists": [],
+        "appointments": []
+      },
+      {
+        "weekday": "Mittwoch",
+        "therapists": [],
+        "appointments": []
+      },
+      {
+        "weekday": "Donnerstag",
+        "therapists": [],
+        "appointments": []
+      },
+      {
+        "weekday": "Freitag",
+        "therapists": [],
+        "appointments": []
+      }
+    ]
+  },
+  "daylist": {
+    "elements": [
+      {
+        "date": 1643460208782,
+        "therapists": ["Marc", "Andre", "Tom", "Lisa", "Max", "Torben", "Rolf"],
+        "appointments": [{
+          "therapist": "Torben",
+          "patient": "Frau XYZ",
+          "time": "9:00"
+        }]
+      }
+    ]
+  }
+}
