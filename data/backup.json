@@ -4,27 +4,31 @@
     "elements": [
       {
         "weekday": "Montag",
-        "therapists": [],
-        "appointments": []
+        "appointments": [
+          {
+            "therapist": "Torben",
+            "patient": "Frau Regelmäßig",
+            "time": "8:20",
+            "hasEnd": false,
+            "startDate": 1576108800000,
+            "endDate": 1891728000000
+          }
+        ]
       },
       {
         "weekday": "Dienstag",
-        "therapists": [],
         "appointments": []
       },
       {
         "weekday": "Mittwoch",
-        "therapists": [],
         "appointments": []
       },
       {
         "weekday": "Donnerstag",
-        "therapists": [],
         "appointments": []
       },
       {
         "weekday": "Freitag",
-        "therapists": [],
         "appointments": []
       }
     ]
@@ -33,12 +37,53 @@
     "elements": [
       {
         "date": 1643460208782,
-        "therapists": ["Marc", "Andre", "Tom", "Lisa", "Max", "Torben", "Rolf"],
-        "appointments": [{
-          "therapist": "Torben",
-          "patient": "Frau XYZ",
-          "time": "9:00"
-        }]
+        "appointments": [
+          {
+            "therapist": "Torben",
+            "patient": "Manfred",
+            "time": "13:40"
+          },
+          {
+            "therapist": "Andre",
+            "patient": "Manny",
+            "time": "9:00"
+          }
+        ]
+      },
+      {
+        "date": 1643760000000,
+        "appointments": [
+          {
+            "therapist": "Max",
+            "patient": "haha",
+            "time": "7:00"
+          },
+          {
+            "therapist": "Lisa",
+            "patient": "loool",
+            "time": "7:00"
+          },
+          {
+            "therapist": "Max",
+            "patient": "auch hier gehts ab",
+            "time": "8:20"
+          },
+          {
+            "therapist": "Max",
+            "patient": null,
+            "time": "7:40"
+          }
+        ]
+      },
+      {
+        "date": 1644364800000,
+        "appointments": [
+          {
+            "therapist": "Tom",
+            "patient": null,
+            "time": "7:00"
+          }
+        ]
       }
     ]
   },
