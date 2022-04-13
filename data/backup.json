@@ -1,17 +1,17 @@
 {
-  "createdDate": 1643460208782,
+  "createdDate": 1649603675850,
   "masterlist": {
     "elements": [
       {
         "weekday": "Montag",
         "appointments": [
           {
-            "therapist": "Torben",
-            "patient": "Frau Regelmäßig",
-            "time": "8:20",
+            "therapist": "Lisa",
+            "patient": "Test",
+            "time": "7:00",
             "hasEnd": false,
-            "startDate": 1576108800000,
-            "endDate": 1891728000000
+            "startDate": 1648470803328,
+            "endDate": null
           }
         ]
       },
@@ -81,6 +81,16 @@
           {
             "therapist": "Tom",
             "patient": null,
+            "time": "7:00"
+          }
+        ]
+      },
+      {
+        "date": 1649548800000,
+        "appointments": [
+          {
+            "therapist": "Andre",
+            "patient": "Torbiiiii",
             "time": "7:00"
           }
         ]
