@@ -12,13 +12,13 @@ app.use(express.urlencoded({
 app.use(cors());
 
 app.get('/backup', (req, res) => {
-  const data = JSON.parse(fs.readFileSync(__dirname + '/data/backup.json'));
+  const data = JSON.parse(fs.readFileSync(__dirname + '/data/backup.json'), 'utf-8');
   res.send(data);
 });
 
 app.put('/backup', (req, res) => {
   const postData = req.body;
-  fs.writeFileSync(__dirname + '/data/backup.json', JSON.stringify(postData, null, 2));
+  fs.writeFileSync(__dirname + '/data/backup.json', JSON.stringify(postData, null, 2), 'utf-8');
   res.sendStatus(200);
 });
 
