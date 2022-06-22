@@ -1,41 +1,71 @@
 {
-  "createdDate": 1649603675850,
+  "createdDate": 1655912384374,
   "masterlist": {
     "elements": [
       {
         "weekday": "Montag",
         "appointments": [
           {
-            "therapist": "Vicky",
-            "patient": "Test",
-            "time": "7:00",
-            "hasEnd": true,
-            "startDate": 1650112933729,
-            "endDate": 1651410000000
+            "therapist": "Torben",
+            "therapistID": "87bfde40-9560-47ce-bbe5-6dfbc499cf08",
+            "patient": "Blockermann 3",
+            "time": "12:00",
+            "startDate": 1650195401406,
+            "isBWO": false,
+            "cancellations": []
           },
           {
             "therapist": "Torben",
-            "patient": "Blockermann 1",
+            "therapistID": "87bfde40-9560-47ce-bbe5-6dfbc499cf08",
+            "patient": "Blockermensch 1",
             "time": "7:20",
-            "hasEnd": false,
-            "startDate": 1650195392321,
-            "endDate": null
+            "startDate": 1687170812568,
+            "isBWO": false,
+            "cancellations": []
+          },
+          {
+            "therapist": "Jenny",
+            "therapistID": "88f7de12-ca11-44e4-8048-5cd09390c2f9",
+            "patient": "Thomas neu",
+            "time": "7:40",
+            "startDate": 1687784400000,
+            "isBWO": true,
+            "cancellations": []
           },
           {
             "therapist": "André",
+            "therapistID": "9301eecb-4179-4b86-892b-c6f8cfa18fa4",
             "patient": "Blockermann 2",
             "time": "9:20",
-            "hasEnd": false,
-            "startDate": 1650195396789,
-            "endDate": null
+            "startDate": 1650200400000,
+            "isBWO": false,
+            "cancellations": [
+              "20.06.2022",
+              "20.06.2022",
+              "13.06.2022"
+            ]
           },
           {
-            "therapist": "Torben",
-            "patient": "Blockermann 3",
-            "time": "12:00",
-            "hasEnd": false,
-            "startDate": 1650195401406,
-            "endDate": null
+            "therapist": "Jenny",
+            "therapistID": "88f7de12-ca11-44e4-8048-5cd09390c2f9",
+            "patient": "Thomas jetzt",
+            "time": "7:00",
+            "startDate": 1656295200000,
+            "isBWO": false,
+            "cancellations": [
+              "12.02.2024"
+            ]
+          },
+          {
+            "therapist": "Orazio",
+            "therapistID": "f1d3d59c-ea7b-4979-8b2c-8369bb3e5324",
+            "patient": "Früüh",
+            "time": "7:00",
+            "startDate": 1655690400000,
+            "isBWO": false,
+            "cancellations": [
+              "25.07.2022"
+            ]
           }
         ]
       },
@@ -48,11 +78,30 @@
         "appointments": [
           {
             "therapist": "Vicky",
+            "therapistID": "3b298ca4-1256-4d56-bfe2-c08321e0e550",
+            "patient": "/",
+            "time": "7:20",
+            "startDate": 1655989200000,
+            "isBWO": false,
+            "cancellations": []
+          },
+          {
+            "therapist": "Vicky",
+            "therapistID": "3b298ca4-1256-4d56-bfe2-c08321e0e550",
             "patient": "Test",
             "time": "7:00",
-            "hasEnd": false,
-            "startDate": 1650115243198,
-            "endDate": null
+            "startDate": 1662555600000,
+            "isBWO": false,
+            "cancellations": []
+          },
+          {
+            "therapist": "Vicky",
+            "therapistID": "3b298ca4-1256-4d56-bfe2-c08321e0e550",
+            "patient": "Test spät",
+            "time": "20:00",
+            "startDate": 1655902800000,
+            "isBWO": false,
+            "cancellations": []
           }
         ]
       },
@@ -61,11 +110,21 @@
         "appointments": [
           {
             "therapist": "Vicky",
-            "patient": "Test",
+            "therapistID": "3b298ca4-1256-4d56-bfe2-c08321e0e550",
+            "patient": "Test Do",
             "time": "7:00",
-            "hasEnd": false,
-            "startDate": 1650115297879,
-            "endDate": null
+            "startDate": 1688044897879,
+            "isBWO": false,
+            "cancellations": []
+          },
+          {
+            "therapist": "Jenny",
+            "therapistID": "88f7de12-ca11-44e4-8048-5cd09390c2f9",
+            "patient": "Neumann",
+            "time": "7:20",
+            "startDate": 1688049464898,
+            "isBWO": false,
+            "cancellations": []
           }
         ]
       },
@@ -82,11 +141,13 @@
         "appointments": [
           {
             "therapist": "André",
+            "therapistID": "9301eecb-4179-4b86-892b-c6f8cfa18fa4",
             "patient": "Manfred",
             "time": "13:40"
           },
           {
             "therapist": "Torben",
+            "therapistID": "87bfde40-9560-47ce-bbe5-6dfbc499cf08",
             "patient": "Manny",
             "time": "9:00"
           }
@@ -97,21 +158,25 @@
         "appointments": [
           {
             "therapist": "Orazio",
+            "therapistID": "f1d3d59c-ea7b-4979-8b2c-8369bb3e5324",
             "patient": "haha",
             "time": "7:00"
           },
           {
             "therapist": "Vicky",
+            "therapistID": "3b298ca4-1256-4d56-bfe2-c08321e0e550",
             "patient": "loool",
             "time": "7:00"
           },
           {
             "therapist": "Orazio",
+            "therapistID": "f1d3d59c-ea7b-4979-8b2c-8369bb3e5324",
             "patient": "auch hier gehts ab",
             "time": "8:20"
           },
           {
             "therapist": "Orazio",
+            "therapistID": "f1d3d59c-ea7b-4979-8b2c-8369bb3e5324",
             "patient": null,
             "time": "7:40"
           }
@@ -122,6 +187,7 @@
         "appointments": [
           {
             "therapist": "Martin",
+            "therapistID": "487ebd5c-6288-4a1e-afa3-64b8cd300acf",
             "patient": null,
             "time": "7:00"
           }
@@ -132,6 +198,7 @@
         "appointments": [
           {
             "therapist": "Torben",
+            "therapistID": "87bfde40-9560-47ce-bbe5-6dfbc499cf08",
             "patient": "Torbiiiii",
             "time": "7:00"
           }
@@ -142,6 +209,7 @@
         "appointments": [
           {
             "therapist": "Martin",
+            "therapistID": "487ebd5c-6288-4a1e-afa3-64b8cd300acf",
             "patient": "Test single",
             "time": "7:00"
           }
@@ -152,7 +220,8 @@
         "appointments": [
           {
             "therapist": "Martin",
-            "patient": "Manfred Müller",
+            "therapistID": "487ebd5c-6288-4a1e-afa3-64b8cd300acf",
+            "patient": "Manfred MÃ¼ller",
             "time": "7:00"
           }
         ]
@@ -166,6 +235,7 @@
         "appointments": [
           {
             "therapist": "Jenny",
+            "therapistID": "88f7de12-ca11-44e4-8048-5cd09390c2f9",
             "patient": "Test",
             "time": "7:00"
           }
@@ -176,7 +246,32 @@
         "appointments": [
           {
             "therapist": "Martin",
+            "therapistID": "487ebd5c-6288-4a1e-afa3-64b8cd300acf",
             "patient": "Single too late",
+            "time": "7:20"
+          },
+          {
+            "therapist": "Silvia",
+            "therapistID": "b6c0476e-8243-41e0-a62c-fc8236c135b5",
+            "patient": "Thomas Müller",
+            "time": "7:00"
+          },
+          {
+            "therapist": "Jenny",
+            "therapistID": "88f7de12-ca11-44e4-8048-5cd09390c2f9",
+            "patient": "Thomas Müller",
+            "time": "8:20"
+          },
+          {
+            "therapist": "Torben Mey",
+            "therapistID": "87bfde40-9560-47ce-bbe5-6dfbc499cf08",
+            "patient": "fff",
+            "time": "7:00"
+          },
+          {
+            "therapist": "Torben Mey",
+            "therapistID": "87bfde40-9560-47ce-bbe5-6dfbc499cf08",
+            "patient": "fff",
             "time": "7:20"
           }
         ]
@@ -186,6 +281,7 @@
         "appointments": [
           {
             "therapist": "Martin",
+            "therapistID": "487ebd5c-6288-4a1e-afa3-64b8cd300acf",
             "patient": "Single too early",
             "time": "7:40"
           }
@@ -196,8 +292,354 @@
         "appointments": [
           {
             "therapist": "Torben",
+            "therapistID": "87bfde40-9560-47ce-bbe5-6dfbc499cf08",
             "patient": "Manfred Thomas",
             "time": "8:20"
+          }
+        ]
+      },
+      {
+        "date": 1652227200000,
+        "appointments": [
+          {
+            "therapist": "Orazio",
+            "therapistID": "f1d3d59c-ea7b-4979-8b2c-8369bb3e5324",
+            "patient": "Ich bin der ganz lange",
+            "time": "7:00"
+          }
+        ]
+      },
+      {
+        "date": 1654560000000,
+        "appointments": [
+          {
+            "therapist": "André",
+            "therapistID": "9301eecb-4179-4b86-892b-c6f8cfa18fa4",
+            "patient": "Test ääüüüä",
+            "time": "7:00"
+          }
+        ]
+      },
+      {
+        "date": 1654646400000,
+        "appointments": []
+      },
+      {
+        "date": 1655769600000,
+        "appointments": [
+          {
+            "therapist": "Orazio",
+            "therapistID": "f1d3d59c-ea7b-4979-8b2c-8369bb3e5324",
+            "patient": "Thomas Müller",
+            "time": "7:00"
+          },
+          {
+            "therapist": "Orazio",
+            "therapistID": "f1d3d59c-ea7b-4979-8b2c-8369bb3e5324",
+            "patient": "Thomas Müller",
+            "time": "7:00"
+          },
+          {
+            "therapist": "Orazio",
+            "therapistID": "f1d3d59c-ea7b-4979-8b2c-8369bb3e5324",
+            "patient": "Thomas Müller",
+            "time": "7:00"
+          },
+          {
+            "therapist": "Orazio",
+            "therapistID": "f1d3d59c-ea7b-4979-8b2c-8369bb3e5324",
+            "patient": "Thomas Müller",
+            "time": "7:00"
+          },
+          {
+            "therapist": "Orazio",
+            "therapistID": "f1d3d59c-ea7b-4979-8b2c-8369bb3e5324",
+            "patient": "Thomas Müller",
+            "time": "7:00"
+          },
+          {
+            "therapist": "Orazio",
+            "therapistID": "f1d3d59c-ea7b-4979-8b2c-8369bb3e5324",
+            "patient": "Thomas Müller",
+            "time": "7:00"
+          },
+          {
+            "therapist": "Orazio",
+            "therapistID": "f1d3d59c-ea7b-4979-8b2c-8369bb3e5324",
+            "patient": "Thomas Müller",
+            "time": "8:00"
+          },
+          {
+            "therapist": "Torben",
+            "therapistID": "87bfde40-9560-47ce-bbe5-6dfbc499cf08",
+            "patient": "Blockermensch 1",
+            "time": "8:00"
+          },
+          {
+            "therapist": "Torben",
+            "therapistID": "87bfde40-9560-47ce-bbe5-6dfbc499cf08",
+            "patient": "Blockermensch 1",
+            "time": "9:00"
+          },
+          {
+            "therapist": "Janne",
+            "therapistID": "1d36f6f2-8ef3-4582-9d43-9df8a08e7ba7",
+            "patient": "Thomas Müller",
+            "time": "10:20"
+          }
+        ]
+      },
+      {
+        "date": 1655164800000,
+        "appointments": [
+          {
+            "therapist": "Vicky",
+            "therapistID": "3b298ca4-1256-4d56-bfe2-c08321e0e550",
+            "patient": "Thomas Müller",
+            "time": "7:20"
+          },
+          {
+            "therapist": "Vicky",
+            "therapistID": "3b298ca4-1256-4d56-bfe2-c08321e0e550",
+            "patient": "Thomas Müller",
+            "time": "7:20"
+          },
+          {
+            "therapist": "Vicky",
+            "therapistID": "3b298ca4-1256-4d56-bfe2-c08321e0e550",
+            "patient": "Thomas Müller",
+            "time": "7:20"
+          },
+          {
+            "therapist": "Vicky",
+            "therapistID": "3b298ca4-1256-4d56-bfe2-c08321e0e550",
+            "patient": "Thomas Müller",
+            "time": "7:20"
+          },
+          {
+            "therapist": "Vicky",
+            "therapistID": "3b298ca4-1256-4d56-bfe2-c08321e0e550",
+            "patient": "Thomas Müller",
+            "time": "7:20"
+          },
+          {
+            "therapist": "Vicky",
+            "therapistID": "3b298ca4-1256-4d56-bfe2-c08321e0e550",
+            "patient": "Thomas Müller",
+            "time": "7:20"
+          },
+          {
+            "therapist": "Vicky",
+            "therapistID": "3b298ca4-1256-4d56-bfe2-c08321e0e550",
+            "patient": "Thomas Müller",
+            "time": "7:20"
+          },
+          {
+            "therapist": "Jenny",
+            "therapistID": "88f7de12-ca11-44e4-8048-5cd09390c2f9",
+            "patient": "Thomas Müller",
+            "time": "8:00"
+          }
+        ]
+      },
+      {
+        "date": 1655251200000,
+        "appointments": [
+          {
+            "therapist": "Jenny",
+            "therapistID": "88f7de12-ca11-44e4-8048-5cd09390c2f9",
+            "patient": "Thomas Müller",
+            "time": "8:40"
+          }
+        ]
+      },
+      {
+        "date": 1655424000000,
+        "appointments": [
+          {
+            "therapist": "Nadine",
+            "therapistID": "706fc666-b784-4063-8145-4c12e7a8b2c4",
+            "patient": "Thomas Müller",
+            "time": "10:20"
+          },
+          {
+            "therapist": "Sam",
+            "therapistID": "1be16d04-1d05-46a7-b984-a807765bc8b0",
+            "patient": "Thomas Müller",
+            "time": "8:20"
+          },
+          {
+            "therapist": "Torben",
+            "therapistID": "Torben",
+            "patient": "Timo Fuchs",
+            "time": "19:00"
+          }
+        ]
+      },
+      {
+        "date": 1655683200000,
+        "appointments": [
+          {
+            "therapist": "Nadine",
+            "therapistID": "706fc666-b784-4063-8145-4c12e7a8b2c4",
+            "patient": "Thomas Müller",
+            "time": "10:00"
+          },
+          {
+            "therapist": "Nadine",
+            "therapistID": "706fc666-b784-4063-8145-4c12e7a8b2c4",
+            "patient": "Tester lang",
+            "time": "9:00"
+          },
+          {
+            "therapist": "André",
+            "therapistID": "9301eecb-4179-4b86-892b-c6f8cfa18fa4",
+            "patient": "Tester ganz lang",
+            "time": "7:00"
+          },
+          {
+            "therapist": "André",
+            "therapistID": "9301eecb-4179-4b86-892b-c6f8cfa18fa4",
+            "patient": "/",
+            "time": "7:20"
+          },
+          {
+            "therapist": "André",
+            "therapistID": "9301eecb-4179-4b86-892b-c6f8cfa18fa4",
+            "patient": "Neuer mEnsch",
+            "time": "7:40"
+          },
+          {
+            "therapist": "André",
+            "therapistID": "9301eecb-4179-4b86-892b-c6f8cfa18fa4",
+            "patient": "/",
+            "time": "8:00"
+          },
+          {
+            "therapist": "Torben",
+            "therapistID": "87bfde40-9560-47ce-bbe5-6dfbc499cf08",
+            "patient": "dddddd",
+            "time": "7:00"
+          },
+          {
+            "therapist": "Torben",
+            "therapistID": "87bfde40-9560-47ce-bbe5-6dfbc499cf08",
+            "patient": "dddddd",
+            "time": "7:40"
+          },
+          {
+            "therapist": "Jenny",
+            "therapistID": "88f7de12-ca11-44e4-8048-5cd09390c2f9",
+            "patient": "dd",
+            "time": "8:00"
+          },
+          {
+            "therapist": "Jenny",
+            "therapistID": "88f7de12-ca11-44e4-8048-5cd09390c2f9",
+            "patient": "/",
+            "time": "8:20"
+          },
+          {
+            "therapist": "Jenny",
+            "therapistID": "88f7de12-ca11-44e4-8048-5cd09390c2f9",
+            "patient": "gg",
+            "time": "8:40"
+          },
+          {
+            "therapist": "Jenny",
+            "therapistID": "88f7de12-ca11-44e4-8048-5cd09390c2f9",
+            "patient": "/",
+            "time": "9:00"
+          }
+        ]
+      },
+      {
+        "date": 1655856000000,
+        "appointments": [
+          {
+            "therapist": "André",
+            "therapistID": "9301eecb-4179-4b86-892b-c6f8cfa18fa4",
+            "patient": "Thomas Müller",
+            "time": "10:40"
+          },
+          {
+            "therapist": "Torben",
+            "therapistID": "87bfde40-9560-47ce-bbe5-6dfbc499cf08",
+            "patient": "Thomas Müller",
+            "time": "8:20"
+          },
+          {
+            "therapist": "Jenny",
+            "therapistID": "88f7de12-ca11-44e4-8048-5cd09390c2f9",
+            "patient": "Test",
+            "time": "7:00"
+          }
+        ]
+      },
+      {
+        "date": 1655942400000,
+        "appointments": [
+          {
+            "therapist": "Orazio",
+            "therapistID": "f1d3d59c-ea7b-4979-8b2c-8369bb3e5324",
+            "patient": "Thomas Müller",
+            "time": "8:20"
+          },
+          {
+            "therapist": "André",
+            "therapistID": "9301eecb-4179-4b86-892b-c6f8cfa18fa4",
+            "patient": "Tester",
+            "time": "8:40"
+          }
+        ]
+      },
+      {
+        "date": 1656028800000,
+        "appointments": [
+          {
+            "therapist": "Klaudia",
+            "therapistID": "52f37058-a9f8-4bbb-b4bb-f78faa1ffbcb",
+            "patient": "Thomas Müller",
+            "time": "7:00"
+          },
+          {
+            "therapist": "Martin",
+            "therapistID": "487ebd5c-6288-4a1e-afa3-64b8cd300acf",
+            "patient": "Altnmei",
+            "time": "7:20"
+          }
+        ]
+      },
+      {
+        "date": 1658145258404,
+        "appointments": [
+          {
+            "therapist": "André",
+            "therapistID": "9301eecb-4179-4b86-892b-c6f8cfa18fa4",
+            "patient": "tt",
+            "time": "7:20"
+          }
+        ]
+      },
+      {
+        "date": 1659354858404,
+        "appointments": [
+          {
+            "therapist": "André",
+            "therapistID": "9301eecb-4179-4b86-892b-c6f8cfa18fa4",
+            "patient": "tt",
+            "time": "7:40"
+          }
+        ]
+      },
+      {
+        "date": 1656547200000,
+        "appointments": [
+          {
+            "therapist": "Jenny",
+            "therapistID": "88f7de12-ca11-44e4-8048-5cd09390c2f9",
+            "patient": "Altnmei",
+            "time": "7:00"
           }
         ]
       }
@@ -208,73 +650,113 @@
       "name": "André",
       "id": "9301eecb-4179-4b86-892b-c6f8cfa18fa4",
       "activeSince": -1,
-      "activeUntil": -1
+      "activeUntil": -1,
+      "absences": [
+        {
+          "day": "23.06.2022",
+          "start": "7:00",
+          "end": "8:40"
+        },
+        {
+          "day": "22.06.2022",
+          "start": "7:00",
+          "end": "8:00"
+        }
+      ]
     },
     {
       "name": "Torben",
       "id": "87bfde40-9560-47ce-bbe5-6dfbc499cf08",
       "activeSince": -1,
-      "activeUntil": -1
+      "activeUntil": -1,
+      "absences": []
     },
     {
       "name": "Orazio",
       "id": "f1d3d59c-ea7b-4979-8b2c-8369bb3e5324",
       "activeSince": -1,
-      "activeUntil": -1
+      "activeUntil": -1,
+      "absences": []
     },
     {
       "name": "Martin",
       "id": "487ebd5c-6288-4a1e-afa3-64b8cd300acf",
       "activeSince": -1,
-      "activeUntil": -1
+      "activeUntil": -1,
+      "absences": [
+        {
+          "day": "Montag",
+          "start": "7:00",
+          "end": "10:00"
+        },
+        {
+          "day": "22.06.2022",
+          "start": "7:00",
+          "end": "9:00"
+        }
+      ]
     },
     {
       "name": "Vicky",
       "id": "3b298ca4-1256-4d56-bfe2-c08321e0e550",
       "activeSince": -1,
-      "activeUntil": -1
+      "activeUntil": -1,
+      "absences": [
+        {
+          "day": "22.06.2022",
+          "start": "7:00",
+          "end": "12:00"
+        }
+      ]
     },
     {
       "name": "Jenny",
       "id": "88f7de12-ca11-44e4-8048-5cd09390c2f9",
       "activeSince": -1,
-      "activeUntil": -1
+      "activeUntil": -1,
+      "absences": []
     },
     {
       "name": "Silvia",
       "id": "b6c0476e-8243-41e0-a62c-fc8236c135b5",
       "activeSince": -1,
-      "activeUntil": -1
+      "activeUntil": -1,
+      "absences": []
     },
     {
       "name": "Ina",
       "id": "47185f82-bda8-444b-ada2-26589b11ccc3",
       "activeSince": -1,
-      "activeUntil": -1
+      "activeUntil": -1,
+      "absences": []
     },
     {
       "name": "Nadine",
       "id": "706fc666-b784-4063-8145-4c12e7a8b2c4",
       "activeSince": -1,
-      "activeUntil": -1
+      "activeUntil": -1,
+      "absences": []
     },
     {
       "name": "Sam",
       "id": "1be16d04-1d05-46a7-b984-a807765bc8b0",
       "activeSince": -1,
-      "activeUntil": -1
+      "activeUntil": -1,
+      "absences": []
     },
     {
       "name": "Klaudia",
       "id": "52f37058-a9f8-4bbb-b4bb-f78faa1ffbcb",
       "activeSince": -1,
-      "activeUntil": -1
+      "activeUntil": -1,
+      "absences": []
     },
     {
       "name": "Janne",
       "id": "1d36f6f2-8ef3-4582-9d43-9df8a08e7ba7",
       "activeSince": -1,
-      "activeUntil": -1
+      "activeUntil": -1,
+      "absences": []
     }
   ]
 }
