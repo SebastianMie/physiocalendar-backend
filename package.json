@@ -1,15 +1,27 @@
 {
   "name": "physiocalendar-backend",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
-  "author": "",
+  "author": "sebastian mierisch",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.17.2"
-  }
+    "express": "^4.18.2",
+    "typescript": "^4.9.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astrutz/physiocalendar-backend.git"
+  },
+  "keywords": [
+    "physiocalender"
+  ],
+  "bugs": {
+    "url": "https://github.com/astrutz/physiocalendar-backend/issues"
+  },
+  "homepage": "https://github.com/astrutz/physiocalendar-backend#readme",
+  "description": ""
 }
