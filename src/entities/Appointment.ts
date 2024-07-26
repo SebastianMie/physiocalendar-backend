@@ -1,6 +1,6 @@
 import { Entity, PrimaryColumn,PrimaryGeneratedColumn, Column, ManyToOne } from 'typeorm';
-import Therapist from './Therapist';
-import Patient from './Patient';
+import Therapist from './Therapist.js';
+import Patient from './Patient.js';
 
 @Entity()
 export default class Appointment {

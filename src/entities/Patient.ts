@@ -1,7 +1,7 @@
 import { Entity, PrimaryColumn, Column, OneToMany } from 'typeorm';
-import Appointment from './Appointment';
-import AppointmentSeries from './AppointmentSeries';
-import Cancellation from './Cancellation';
+import Appointment from './Appointment.js';
+import AppointmentSeries from './AppointmentSeries.js';
+import Cancellation from './Cancellation.js';
 
 @Entity()
 export default class Patient {

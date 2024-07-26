@@ -1,5 +1,5 @@
 import { Entity, PrimaryGeneratedColumn, Column, ManyToOne } from 'typeorm';
-import Therapist from './Therapist';
+import Therapist from './Therapist.js';
 
 @Entity()
 export default class Exception {

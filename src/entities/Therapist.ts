@@ -1,13 +1,13 @@
-import { Entity, PrimaryColumn, Column, OneToMany } from 'typeorm';
-import Absence from './Absence';
-import Exception from './Exception';
-import Appointment from './Appointment';
-import AppointmentSeries from './AppointmentSeries';
+import { Entity, PrimaryGeneratedColumn, Column, OneToMany } from 'typeorm';
+import Absence from './Absence.js';
+import Exception from './Exception.js';
+import Appointment from './Appointment.js';
+import AppointmentSeries from './AppointmentSeries.js';
 
 @Entity()
 export default class Therapist {
-    @PrimaryColumn()
-    id!: string;
+    @PrimaryGeneratedColumn()
+    id!: number;
 
     @Column()
     name!: string;
@@ -18,15 +18,15 @@ export default class Therapist {
     @Column({ type: 'date' })
     activeUntil!: Date;
 
-    @OneToMany(() => Absence, absence => absence.therapist)
+    @OneToMany(() => Absence, (absence) => absence.therapist)
     absences!: Absence[];
 
-    @OneToMany(() => Exception, exception => exception.therapist)
+    @OneToMany(() => Exception, (exception) => exception.therapist)
     exceptions!: Exception[];
 
-    @OneToMany(() => Appointment, appointment => appointment.therapist)
+    @OneToMany(() => Appointment, (appointment) => appointment.therapist)
     appointments!: Appointment[];
 
-    @OneToMany(() => AppointmentSeries, appointmentSeries => appointmentSeries.therapist)
+    @OneToMany(() => AppointmentSeries, (appointmentSeries) => appointmentSeries.therapist)
     appointmentSeries!: AppointmentSeries[];
 }

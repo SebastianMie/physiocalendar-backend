@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "ESNext",
     "module": "ESNext",
-    "moduleResolution": "node",
+    "moduleResolution": "Node",
     "strict": true,
     "esModuleInterop": true,
     "experimentalDecorators": true,
@@ -15,9 +15,7 @@
     ]
   },
   "include": [
-    "src/**/*.ts",
-    "DB/**/*.ts"
-, "src/migration.ts"  ],
+    "src/**/*.ts"],
   "exclude": [
     "node_modules",
     "**/*.spec.ts"

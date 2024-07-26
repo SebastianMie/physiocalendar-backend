@@ -1,12 +1,12 @@
 import { Entity, PrimaryGeneratedColumn, Column, ManyToOne } from 'typeorm';
-import Therapist from './Therapist';
+import Therapist from './Therapist.js';
 
 @Entity()
 export default class Absence {
     @PrimaryGeneratedColumn()
     id!: number;
 
-    @ManyToOne(() => Therapist, (therapist: Therapist) => therapist.absences)
+    @ManyToOne(() => Therapist, (therapist) => therapist.absences)
     therapist!: Therapist;
   
     @Column()
