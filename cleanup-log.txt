@@ -1,0 +1,20 @@
+📖 Lese backup.json...
+📊 Gefunden: 331 Einträge in daylist.elements
+   • Tage MIT Terminen: 324
+   • Leere Tage (kein appointments): 7
+   • GESAMT Termine: 8057
+   • Ø Termine pro Tag: 24.9
+🔄 Sortiere Tage chronologisch...
+🧹 Entferne leere Einträge...
+
+🗓️  Filtere Einträge vor 2026...
+   ➜ 109 Einträge vor 01.01.2026 gelöscht
+
+📈 Statistik:
+   • Gesamte Einträge nach Bereinigung: 222
+   • Zeitraum: 2.1.2026 bis 30.12.2026
+
+💾 Speichere in neue Datei...
+✅ Erfolgreich gespeichert in: C:\Users\sem\Dokumente\Workspace\Kunden\Projekte\physiocalendar-backend\data\backup_cleaned.json
+
+✨ Fertig!
